@@ -75,6 +75,7 @@ cwallet.sso.lck### JetBrains template
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 *.iml
+.idea
 
 ## File-based project format:
 *.iws

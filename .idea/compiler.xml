@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="agent-01" />
         <module name="agent-02" />
+        <module name="agent-03" />
+        <module name="agent03" />
         <module name="app" />
         <module name="example01" />
         <module name="java-agent-01" />
@@ -15,8 +17,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="agent-01" target="1.7" />
+      <module name="agent-01" target="1.8" />
       <module name="agent-02" target="1.7" />
+      <module name="agent-03" target="1.7" />
+      <module name="agent03" target="1.8" />
       <module name="app" target="1.8" />
       <module name="example01" target="1.5" />
       <module name="java-agent-01" target="1.7" />

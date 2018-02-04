@@ -12,6 +12,7 @@
         <module>app</module>
         <module>agent-01</module>
         <module>agent-02</module>
+        <module>agent03</module>
     </modules>
 
     <repositories>

@@ -2,8 +2,8 @@ package moe.cnkirito.agent;
 
 public class Dog {
 
-    public int hello() {
-        return 0;
+    public String hello() {
+        return "wow wow~";
     }
 
 }

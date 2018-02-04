@@ -15,7 +15,8 @@ public class DogTransformer implements ClassFileTransformer {
         if (!className.equalsIgnoreCase("moe/cnkirito/agent/Dog")) {
             return null;
         }
-        return getBytesFromFile("app/target/classes/moe/cnkirito/agent/Dog.class");
+        return getBytesFromFile("C:/Users/xujingfeng/Desktop/Dog.class");
+//        return getBytesFromFile("app/target/classes/moe/cnkirito/agent/Dog.class");
     }
 
     public static byte[] getBytesFromFile(String fileName) {
